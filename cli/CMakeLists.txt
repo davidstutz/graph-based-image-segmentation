@@ -35,5 +35,5 @@ find_package(OpenCV REQUIRED)
 find_package(Boost COMPONENTS system filesystem program_options REQUIRED)
 
 include_directories(../lib/ ${OpenCV_INCLUDE_DIRS} ${Boost_INCLUDE_DIRS})
-add_executable(cli main.cpp)
-target_link_libraries(cli refh ${OpenCV_LIBS} ${Boost_LIBRARIES})
+add_executable(refh_cli main.cpp)
+target_link_libraries(refh_cli refh ${OpenCV_LIBS} ${Boost_LIBRARIES})

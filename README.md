@@ -34,7 +34,7 @@ With all requirements installed, run:
 The provided tool can easily be used as follows (from within the `build` directory):
 
     # Show a help message.
-    $ ../bin/cli --help
+    $ ../bin/refh_cli --help
     Allowed options:
       -h [ --help ]            produce help message
       --input arg              folder containing the images to process
@@ -42,7 +42,7 @@ The provided tool can easily be used as follows (from within the `build` directo
       --minimum-size arg (=10) minimum component size
       --output arg (=output)   save segmentation as CSV file and contour images
     # Oversegment the provided examples:
-    $ ../bin/cli ../data/ ../output --threshold 255
+    $ ../bin/refh_cli ../data/ ../output --threshold 255
 
 The latter command will create the `output` directory containing the oversegmentations as `.csv` files and visualizations as `.png` files.
 
