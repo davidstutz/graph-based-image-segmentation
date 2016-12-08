@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/davidstutz/graph-based-image-segmentation.svg?branch=master)](https://travis-ci.org/davidstutz/graph-based-image-segmentation)
 
+**Update:** This implementation is also part of [davidstutz/superpixel-benchmark](https://github.com/davidstutz/superpixel-benchmark).
+
 This repository contains an implementation of the graph-based image segmentation algorithms described in [1] focussing on generating oversegmentations, also referred to as superpixels.
 
     [1] P. F. Felzenswalb and D. P. Huttenlocher.
