@@ -10,6 +10,12 @@ This repository contains an implementation of the graph-based image segmentation
         Efficient Graph-Based Image Segmentation.
         International Journal of Computer Vision, volume 59, number 2, 2004.
 
+The implementation was used in [2] for evaluation.
+
+    [2] D. Stutz, A. Hermans, B. Leibe.
+        Superpixels: An Evaluation of the State-of-the-Art.
+        Computer Vision and Image Understanding, 2018.
+
 ![Example: several oversegmentations.](screenshot.png?raw=true "Example: several oversegmentations.")
 
 ## Building
@@ -50,21 +56,22 @@ The latter command will create the `output` directory containing the oversegment
 
 ## License
 
-Note that the two provided imags are taken from the [BSDS500](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html) [2].
+Licenses for source code corresponding to:
 
-    [2] P. Arbelaez, M. Maire, C. Fowlkes and J. Malik.
-        Contour Detection and Hierarchical Image Segmentation
-        IEEE TPAMI, Vol. 33, No. 5, pp. 898-916, May 2011.
+D. Stutz, A. Hermans, B. Leibe. **Superpixels: An Evaluation of the State-of-the-Art.** Computer Vision and Image Understanding, 2018.
 
-Copyright (c) 2016, David Stutz
-All rights reserved.
+Note that the two provided images are taken from the [BSDS500](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html).
 
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+Copyright (c) 2014-2018 David Stutz, RWTH Aachen University
 
-1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+**Please read carefully the following terms and conditions and any accompanying documentation before you download and/or use this software and associated documentation files (the "Software").**
 
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+The authors hereby grant you a non-exclusive, non-transferable, free of charge right to copy, modify, merge, publish, distribute, and sublicense the Software for the sole purpose of performing non-commercial scientific research, non-commercial education, or non-commercial artistic projects.
 
-3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+Any other use, in particular any use for commercial purposes, is prohibited. This includes, without limitation, incorporation in a commercial product, use in a commercial service, or production of other artefacts for commercial purposes.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+You understand and agree that the authors are under no obligation to provide either maintenance services, update services, notices of latent defects, or corrections of defects with regard to the Software. The authors nevertheless reserve the right to update, modify, or discontinue the Software at any time.
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. You agree to cite the corresponding papers (see above) in documents and papers that report on research using the Software.
